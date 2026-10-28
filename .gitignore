@@ -1,0 +1,14 @@
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.Renviron
+*.Rproj
+.DS_Store
+Thumbs.db
+
+# Generated transcription artefacts
+transcripts/
+*_chunks/
+*_chunk_txt/
+*_transcript.md

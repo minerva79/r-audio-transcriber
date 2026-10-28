@@ -1,0 +1,19 @@
+Package: audiotranscriber
+Type: Package
+Title: Reusable Long-Audio Transcription Utilities for R
+Version: 0.1.0
+Authors@R: person("Adam", "Quek", role = c("aut", "cre"))
+Description: Utilities for splitting long audio with ffmpeg, submitting chunks
+    to the OpenAI Audio Transcriptions API, resuming interrupted jobs, and
+    stitching chunk transcripts into Markdown output.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends:
+    R (>= 4.2)
+Imports:
+    fs,
+    httr,
+    jsonlite
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
